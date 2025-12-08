@@ -73,7 +73,7 @@ public class L2023112660_20_Test {
         int n = 6;
         int[][] edges = {{3,0},{3,1},{3,2},{3,4},{5,4}};
         List<Integer> result = solution.findMinHeightTrees(n, edges);
-        List<Integer> expected = Arrays.asList(4,5);
+        List<Integer> expected = Arrays.asList(3,4);
         assertTrue(areListsEqual(result, expected), 
                    "复杂树应该返回两个根节点[3,4]");
     }
